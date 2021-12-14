@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form.css">
+
     <title>Sign up Sheet</title>
 </head>
 <body>
 
-    <nav>
-        <a href="/index.html">Home</a>
-        <a href="/form.html">Sign Up</a>
-\        <a href="/about.html">About Us</a>
+    <nav id="main-nav">
+        <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/form.html">Sign Up</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        </ul>
     </nav>
 
-    <h1>Rising Stars Camp</h1>
+<div id="wrapper">
+
+   <main>
+    <h1 class="Sheet">Rising Stars Camp</h1>
     <h2>Sign Up Sheet</h2>
 
 <table>
     <thead>
-        <tr>Monday</tr>
-        <tr>Tuesday</tr>
-        <tr>Wednesday</tr>
-        <tr>Thursday</tr>
-        <tr>Friday</tr>
-        <tr>Saturday</tr>
-        <tr>Sunday</tr>
-    </thead>
+        
+<tr>    
+        
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+</tr>
+</thead>
     <tbody>
         <tr>
             <td>2:30pm-6:00pm</td>
@@ -55,21 +66,29 @@
         
         
 
- <label for="Age">Age</label>
+ <label for="Age">Age</label><br>
  <select name="Age" id="Age">
 
-     <optgroup label="Kids">
+     <optgroup label="Kids"><br>
          <option>4-7</option>
          <option>8-12</option>
      </optgroup>
         
-<optgroup label="Teens">
+<optgroup label="Teens"><br>
 <option>13-15</option>
 <option>15-17</option>
 </optgroup>
 
-<br> <label for="Phone">Phone</label>
-<br> <input type="text" id="Phone" required="required" placeholder="Phone">
+<label for="Phone Number">Phone Number</label><br>
+<input type="text" id="Phone Number" required="required" placeholder="Phone Number"><br>
+</fieldset>
 
+<p>
+    <button class="form-btn">Sumbit</button>
+    <button class="form-btn">Reset Form</button>
+</p>
+
+</div>
+</main>
 </body>
 </html>

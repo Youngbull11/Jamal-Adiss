@@ -1,0 +1,117 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+} 
+
+body{
+    background-color: orange;
+    font-size: 1.5rem;
+    background-image: url(/img/Basktball\ logo.png);
+    background-repeat: no-repeat;
+}
+
+#main-nav {
+    font-variant:all small-caps;
+    font-size: 2.25;
+        }
+    
+    #main-nav a:link{
+        color: darkred;
+    }
+    
+    #main-nav a:visited{
+    
+        color: gold;
+    }
+    
+    #main-nav a:hover{
+    
+        color: rgb(177, 87, 230);
+    }
+
+
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        font-variant-caps: all-petite-caps;
+        list-style: none;
+        background-color: black;
+        height: 60px;
+        margin-bottom: 50px;
+        font-size: 1.8rem;
+        }
+
+#wrapper{
+    margin: 0 auto;
+    width: 70vw;
+}
+
+    nav li{
+        list-style: none;
+        display: inline;
+        padding-right: 20px;
+    }
+    
+    main{
+        background-color: white;
+    }
+
+
+table,
+tr,
+th,
+td {
+    border:3px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin: 40px 0;
+    padding: 2px 0;
+}
+
+td{
+
+ padding: 4px 8px;
+}
+
+thead,
+tr{
+    background-color:rgb(124, 188, 231)
+}
+
+legend{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.Sheet{
+color: white;
+}
+
+label[for="FirstName"],
+label[for="LastName"],
+label[for="Age"] {
+
+text-align: left;
+display: inline;
+padding-right: 18px;
+margin: 8px;
+color: blue;
+}
+
+select{
+    font-size: large;
+    color: darkblue;
+}
+
+button{
+    background-color:coral;
+    color: gold;
+    font-size: large;
+    box-shadow:3px 4px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    cursor: crosshair;
+}
+

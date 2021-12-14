@@ -1,0 +1,84 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+} 
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    font-size: 1.5rem;
+    background-repeat: no-repeat;
+}
+
+#main-nav {
+    font-variant:all small-caps;
+    font-size: 2.25;
+    padding: 15px;
+    
+        }
+    
+    #main-nav a:link{
+        color: darkred;
+    }
+    
+    #main-nav a:visited{
+    
+        color: gold;
+    }
+    
+    #main-nav a:hover{
+    
+        color: rgb(177, 87, 230);
+    }
+    
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-variant-caps: all-petite-caps;
+    list-style: none;
+    background-color: black;
+    height: 60px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    }
+
+.rainbow{
+    background-image: url(/img/serge-kutuzov-_FPy-FUndok-unsplash.jpg);
+    background-repeat: repeat;
+}
+
+h1{
+    color:cornflowerblue;
+    font-size: 150px;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+h3{
+    color: white;
+    padding:20px;
+}
+
+
+
+.Kids{
+    background-color: rgb(228, 100, 179);
+}
+
+.fundamentals{
+background-color: rgb(228, 100,179);
+}
+
+.teens{
+    background-color: rgb(228,100,179);
+}
+
+footer{
+    font-size: small;
+}
