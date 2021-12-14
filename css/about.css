@@ -69,7 +69,10 @@ img{
 img{
     transition:ease-in 2s;
     float: left;
-    float: clear;
+}
+footer{
+    float: left;
+    font-size: small;
 }
 
 
